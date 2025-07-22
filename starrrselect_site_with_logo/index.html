@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>星辰精選工作室</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #0e1d3a;
+      color: #1d1d1f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: radial-gradient(#1e2b4a 0.5px, transparent 0.5px);
+      background-size: 30px 30px;
+    }
+
+    .container {
+      background-color: #f9f9f9;
+      border-radius: 24px;
+      padding: 40px 24px;
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .logo-container {
+      position: absolute;
+      top: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 120px;
+      background-color: #0e1d3a;
+      border: 6px solid #f3c851;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .logo-container img {
+      width: 82%;
+      height: auto;
+      object-fit: contain;
+      transform: translateY(-2%);
+    }
+
+    h1 {
+      margin-top: 80px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #1d1d1f;
+    }
+
+    p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .contact-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 20px 0;
+    }
+
+    .contact-buttons a {
+      padding: 8px 16px;
+      border: 2px solid #1d1d1f;
+      border-radius: 8px;
+      color: #1d1d1f;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .link-button {
+      display: block;
+      margin: 12px 0;
+      background-color: #1d2a3a;
+      color: white;
+      font-weight: bold;
+      padding: 14px 0;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s;
+    }
+
+    .link-button:hover {
+      background-color: #273b51;
+    }
+
+    footer {
+      margin-top: 24px;
+      font-size: 13px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="./logo.png" alt="logo">
+    </div>
+    <h1>星辰精選工作室</h1>
+    <p>官方連結中心</p>
+    <p>追蹤我們，獲得最新消息與優惠</p>
+    <div class="contact-buttons">
+      <a href="tel:+886000000000">電話</a>
+      <a href="https://maps.google.com">地址</a>
+      <a href="mailto:service@example.com">郵箱</a>
+    </div>
+    <a href="https://www.instagram.com/starrrselect" class="link-button">Instagram</a>
+    <a href="https://www.youtube.com/@starrrselect" class="link-button">YouTube</a>
+    <a href="https://shopee.tw/starrrselect" class="link-button">Shopee</a>
+    <a href="https://lin.ee/cDBowOo" class="link-button">LINE 團購社群</a>
+    <a href="https://lin.ee/cDBowOo" class="link-button">LINE 官方帳號</a>
+    <footer>
+      © 2025 星辰精選工作室
+    </footer>
+  </div>
+</body>
+</html>
